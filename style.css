@@ -1,5 +1,6 @@
 *{
-    margin:0px;
+    margin:0;
+    padding:0;
     font-family: Arial;
     border:border-box;
 }
@@ -185,7 +186,11 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    
     /* gap:20px; */
+}
+.shop-section a{
+    text-decoration: none;
 }
 .box{
     height: 308px;
@@ -209,8 +214,46 @@ span{
 .box-content{
     margin-left:10px;
     margin-right:10px;
-    
 }
 .box-content p{
      color:#007185;
+
 }
+footer{
+    margin-top:15px;
+}
+.foot-panel1{
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+    position: relative; 
+    z-index: 1;
+    bottom:-590px;
+}
+.foot-panel2{
+    background-color:#1b2631;
+    color:white;
+    height:300px;
+    padding: 20px;
+    font-size: 16px;
+    position: relative; 
+    z-index: 1;
+    bottom:-590px;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    margin-top:20px;
+}
+ul a{
+    display: block;
+    font-size:0.85rem;
+    margin-top:10px;
+    color:#dddddd;
+}
+/* .foot-panel3{
+    
+} */
